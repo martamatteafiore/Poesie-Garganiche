@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Raccolta di poesie Garganiche</title>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/foglio2.css"/>
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  
+  <!-- font awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+  <!-- Script per il tool integrativo (sharethis) -->
+  <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=67936216c7696f001258a0dc&product=inline-share-buttons&source=platform" async="async"></script>
+
+  <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
+  <META NAME="DC.Title" CONTENT="Poesie Garganiche"/>
+  <META NAME="DC.Creator" CONTENT="Marta Mattea Alfonsa Fiore"/>
+  <META NAME="DC.Subject" CONTENT="Poesie"/>
+  <META NAME="DC.Description" CONTENT="Un catalogo completo di tutte le poesie Garganiche"/>
+  <META NAME="DC.Publisher" CONTENT="GitHub"/>
+  <META NAME="DC.Date" CONTENT="15-01-2025"/>
+  <META NAME="DC.Format" CONTENT="Risorsa digitale"/>
+  <META NAME="DC.Language" CONTENT="Italiano"/>
+  <META NAME="DC.Rights" CONTENT="Pubblicata con Licenza Creative Commons"/>
+
+</head>
+
+
+<body style="background-color: #FFFF99;">
+  
+  <!-- header -->
+  <header class="container-fluid d-flex justify-content-center my-5 text-center">
+    <div class="container bg-image">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="title">Poesie Garganiche</h1>
+          <h3 class="subtitle">Il catalogo completo delle Poesie Garganiche</h3>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- nav -->
+  <nav class="navbar navbar-expand-lg bg-dark mx-5">
+    <div class="container-fluid">
+      
+      <!-- Bottone che appare quando la pagina è stretta -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Resto della navbar -->
+      <div class="collapse navbar-collapse me-3" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item mx-3">
+            <a class="nav-link active link-light" aria-current="page" href="index.html"><i class="fa fa-fw fa-home"></i>Home</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link active link-light" href="catalogo1.html"><i class="fa fa-fw fa-book"></i>Catalogo</a>
+          </li>
+        </ul>
+        <i class="fa fa-fw fa-user-plus me-2"></i>Accedi / Iscriviti
+      </div>
+
+    </div>
+
+  </nav>
+
+
+  <main>
+    <section class="container-fluid d-flex text-center my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div>
+              <h1>Raccolta di poesie Garganiche</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="row my-5">
+
+          <div class="col-6 home-div">
+            <h3 class="my-3 section-title">La poesia di San Valentino</h3>
+            <h4 class="my-3">San Valentino</h4>
+            <h5>Protettore degli innamorati e degli agrumeti</h5>
+            <p class="mx-5 mb-3" style="font-style: italic">
+              Sant' Valntoin arrcaugghj e moitt nzoin
+              arrcaugghj i ranctedd e moitt nzin u Bambnedd.
+              Quann aghesc a prucssiun port u laur nu guagnunn
+              i'è bontemp pi Vcois, ie bontempo m'paradois
+          </p>
+            <a style="font-style: italic;" href="#"><a class="nav-link active link-light" aria-current="page" href="poesia.html">Leggi la poesia completa</a>
+
+            <h3 class="my-5 section-title">Dove nasce questa poesia?</h3>
+            <p class="mx-5 mb-3" style="font-style: italic">
+              Vico del Gargano è un comune italiano di 7 246 abitanti della provincia di Foggia in Puglia. Fa parte del parco nazionale del Gargano e della comunità montana del Gargano. È uno dei comuni de "I borghi più belli d'Italia". Le sue frazioni San Menaio e Calenella sono due località balneari. Il comune di Vico del Gargano occupa un'area di 110,4 km² nella parte nord-orientale del Promontorio del Gargano.
+            </p>
+            <a href="https://it.wikipedia.org/wiki/Vico_del_Gargano" style="font-style: italic;">Continua a leggere...</a>
+          </div>
+
+          <div class="col-6 home-div">
+            <h3 class="my-3 section-title">Il paese e il patrono</h3>
+            
+            <!-- Slideshow (anche detto carousel) di immagini -->
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/vicodelgargano-1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/statua3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/centrostorico.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/sanvalentino2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/centrostorico2.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+            <div class="map container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11879.241419467122!2d15.950121214920644!3d41.896935459941865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1337a557955f7d4d%3A0xf152fe0226297a3f!2s71018%20Vico%20del%20Gargano%20FG!5e0!3m2!1sit!2sit!4v1737712667954!5m2!1sit!2sit" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+          </div>
+          
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="text-center mb-5" style="margin-top: 100px;">
+    <h4>Condividi sui social!</h4>
+  <div class="sharethis-inline-share-buttons"></div>
+    <h4>Marta Mattea Alfonsa Fiore - 2024/2025</h4>
+    <h4><a href="WPP.html">Web Project Plan</a></h4>
+  </footer>
+
+</body>
+
+</html>
